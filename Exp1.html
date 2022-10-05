@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<header>
+	<title>Student Details</title>
+	<h1 style="text-align: center;">Education Details - Prem Jain</h1>
+</header>
+<style>
+	table{
+		margin-left: auto;
+		margin-right: auto;	
+		width: 90%;
+	}
+	th{
+		width: 25%;
+	}
+	td{
+		padding: 10px;
+	}
+	th{
+		background: red;
+	}
+	td, th {
+	 	border: 1px solid black;
+		text-align: left;
+  		padding: 8px;
+	}
+	tfoot{
+		background: yellow;
+	}	
+	html{
+		background: linear-gradient(45deg, wheat 40%, aqua);
+	}	
+</style>
+<body>
+<table>
+	<tr>
+		<th>Name</th>
+		<th>Roll number</th>
+		<th style="text-align: center;">Course</th>
+		<th style="text-align: center;">Section</th>
+	</tr>
+	<tr>
+		<td>K Madheswar</td>
+		<td>209X1A0597</td>
+		<td rowspan = 4 style="text-align: center;">CSE</td>
+		<td rowspan = 4 style="text-align: center;">B</td>
+	</tr>
+	<tr>
+		<td>H Lakshmi Narashimha</td>
+		<td>209X1A0593</td>
+	</tr>
+	<tr>
+		<td>J Prem</td>
+		<td>209X1A0593</td>
+	</tr>
+	<tr>
+		<td>N Adarsh Kumar Reddy</td>
+		<td>209X1A05A6</td>
+	</tr>
+	<tfoot>
+	<tr>
+		<td colspan=4 style="text-align:center">Details of CSE B students</td>
+	</tr>
+</table>
+</body>
+</html>
